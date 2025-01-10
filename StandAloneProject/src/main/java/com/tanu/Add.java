@@ -9,5 +9,13 @@ public class Add {
 		
 
 	}
+	
+	
+	
+	
+	public String reverString(String name) {
+		StringBuffer sb=new StringBuffer(name);
+		return sb.reverse().toString();
+	}
 
 }
